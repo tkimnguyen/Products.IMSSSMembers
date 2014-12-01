@@ -1,0 +1,51 @@
+0.1.6 (2011-10-03) [tkimnguyen]
+-------------------------------
+
+- Adjusted tabular and A-to-Z views of directory to show affiliation
+  and final year of membership, instead of phone numbers
+
+- Tweaked edit_macros.pt to hide uninteresting/confusing schematas in
+  edit form for IMSSS member profiles
+
+
+0.1.5 (2011-10-02) [tkimnguyen]
+-------------------------------
+
+- tweaked person_view.pt to show multiline address values correctly
+
+- include workable code generator that reads MS Access records and
+  spits out Python that can be used in an External Method to create
+  member profiles
+
+
+0.1.4 (2011-10-01) [tkimnguyen]
+-------------------------------
+
+- hide some IMSSS fields from other members
+
+
+0.1.3 (2011-10-01) [tkimnguyen]
+-------------------------------
+
+- hide some IMSSS fields unless logged in
+
+- allow only text/plain in IMSSS text fields
+
+
+0.1.2 (2011-10-01) [tkimnguyen]
+-------------------------------
+
+- tweak in view template for missing emailAddress2 value
+
+
+0.1.1 (2011-10-01) [tkimnguyen]
+-------------------------------
+
+- remove dev tag and svn version number
+
+
+0.1 (2011-10-01) [tkimnguyen]
+-----------------------------
+
+- first commit; working version
+

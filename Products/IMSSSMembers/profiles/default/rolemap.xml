@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<rolemap>
+  <roles>
+    <role name="Personnel Manager"/>
+  </roles>
+  <permissions>
+    <permission name="IMSSS: view membership details"
+                acquire="False">
+      <role name="Personnel Manager"/>
+      <role name="Manager"/>
+      <role name="Owner"/>
+      <role name="Authenticated"/>
+    </permission>
+    <permission name="IMSSS: modify membership details"
+                acquire="False">
+      <role name="Personnel Manager"/>
+      <role name="Manager"/>
+      <role name="Owner"/>
+    </permission>
+    <permission name="IMSSS: view secure membership details"
+                acquire="False">
+      <role name="Personnel Manager"/>
+      <role name="Manager"/>
+    </permission>
+    <permission name="IMSSS: modify secure membership details"
+                acquire="False">
+      <role name="Personnel Manager"/>
+      <role name="Manager"/>
+    </permission>
+  </permissions>
+</rolemap>
